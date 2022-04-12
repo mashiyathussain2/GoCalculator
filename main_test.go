@@ -49,7 +49,7 @@ func TestSquare(t *testing.T) {
 func TestAddWithTestify(t *testing.T) {
 	x := 1
 	y := 2
-	value := 4
+	value := 3
 	got := Add(x, y)
 	assert.Equal(t, got, value)
 }
